@@ -9,7 +9,7 @@
 First, clone our code from github:
 
 ```bash
-git clone xxxx.git
+git clone https://github.com/THU-KEG/TWAG.git
 ```
 
 Enter TWAG's root directory. All command then should be executed here.
