@@ -31,7 +31,7 @@ python -m src.prepare --data_dir DATA_DIR \
 --tokenizer_dir TOKENIZER_DIR
 ```
 
-- DATA_DIR is the directory where you put the download dataset. Dataset can be downloaded from [google drive](https://drive.google.com/file/d/1gw_j_3rF38boFaTurCrHR4MMqJAc7-CU/view?usp=sharing). The size of this dataset is 6.9 GB.
+- DATA_DIR is the directory where you put the download dataset. Dataset can be downloaded from [google drive](https://drive.google.com/file/d/1gw_j_3rF38boFaTurCrHR4MMqJAc7-CU/view?usp=sharing). The size of this dataset is 6.9 GB (unzipped).
 - CLASSIFIER_DIR is the directory where results of classifier go. If CLASSIFIER_DIR doesn't exist, we will create it.
 - GENERATOR_DIR is the directory where results of generator go. If GENERATOR_DIR doesn't exist, we will create it.
 - TOKENIZER_DIR is the directory of tokenizer files.  If TOKENIZER_DIR doesn't exist, we will create it. Then we will download tokenizer files from huggingface and store them in TOKENIZER_DIR.
@@ -81,7 +81,7 @@ python -m src.final_prepare --category CATEGORY \
 - GENERATOR_DIR is the directory where results of generator go.  It should be same with last stage's GENERATOR_DIR.
 - TOKENIZER_DIR is the directory of tokenizer files.  It should be same with last stage's TOKENIZER_DIR.
 - ALBERT_MODEL_DIR is the directory of albert-model files.  It should be same with last stage's ALBERT_MODEL_DIR.
-- GLOVE_PATH is the path where your GloVe vector file  `glove.840B.300d.py36.pkl` is. The glove file can be downloaded from [google drive](https://drive.google.com/file/d/1V7zNHxi92gBWGvNhvvZ7JaCmUbKMuPF5/view?usp=sharing). The size of the glove file is 5.1 GB.
+- GLOVE_PATH is the path where your GloVe vector file  `glove.840B.300d.py36.pkl` is. The glove file can be downloaded from [google drive](https://drive.google.com/file/d/1V7zNHxi92gBWGvNhvvZ7JaCmUbKMuPF5/view?usp=sharing). The size of the glove file is 5.1 GB (unzipped).
 
 It takes **13** hours to finish Generation-Stage Preprocess on animal.
 
@@ -181,7 +181,7 @@ python -m src.end2end --category CATEGORY \
   - for example: `/data/generator/animal/trained_generate_models/5_topics/20_titles/model_epoch6_val0.446.pt`
 - TOKENIZER_DIR is the directory of tokenizer files.  It should be same with last stage's TOKENIZER_DIR.
 - ALBERT_MODEL_DIR is the directory of albert-model files.  It should be same with last stage's ALBERT_MODEL_DIR.
-- GLOVE_PATH is the path where your glove file  `glove.840B.300d.py36.pkl` is. The glove file can be downloaded from [google drive](https://drive.google.com/file/d/1V7zNHxi92gBWGvNhvvZ7JaCmUbKMuPF5/view?usp=sharing). The size of the glove file is 5.1 GB.
+- GLOVE_PATH is the path where your glove file  `glove.840B.300d.py36.pkl` is. The glove file can be downloaded from [google drive](https://drive.google.com/file/d/1V7zNHxi92gBWGvNhvvZ7JaCmUbKMuPF5/view?usp=sharing). The size of the glove file is 5.1 GB (unzipped).
 
 By using end2end generation, the abstract of the src file in DATA_DIR will be generated and saved at a result directory which is named after the GENERATOR_CKPT_PATH, for example: `/data/generator/animal/trained_generate_models/5_topics/20_titles/test_id_model_epoch6_val0.446`
 
