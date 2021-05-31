@@ -1,4 +1,4 @@
-**This code is for paper`TWAG: A topic-guided wikipedia abstract generator`**
+**This code is for the ACL 2021 paper `TWAG: A Topic-guided Wikipedia Abstract Generator`**
 
 **Python version**: Python3.6
 
@@ -163,8 +163,8 @@ python -m src.end2end --category CATEGORY \
 --data_dir DATA_DIR \
 --topic_file_path TOPIC_FILE_DIR \
 --id_file_path ID_FILE_DIR \
---classify_ckpt_path  \
---generator_ckpt_path /data1/tsq/TWAG/data/generator/animal/trained_generate_models/5_topics/20_titles/model_epoch6_val0.446.pt \
+--classify_ckpt_path  CLASSIFY_CKPT_PATH \
+--generator_ckpt_path GENERATOR_CKPT_PATH \
 --tokenizer_dir TOKENIZER_DIR \
 --albert-model-dir ALBERT_MODEL_DIR \
 --glove_path GLOVE_PATH 
@@ -185,3 +185,18 @@ python -m src.end2end --category CATEGORY \
 
 By using end2end generation, the abstract of the src file in DATA_DIR will be generated and saved at a result directory which is named after the GENERATOR_CKPT_PATH, for example: `/data/generator/animal/trained_generate_models/5_topics/20_titles/test_id_model_epoch6_val0.446`
 
+
+
+# Checkpoint
+
+Some of our checkpoints are available:
+
+- classify-stage
+  - [animal]() 
+  - [company]() 
+  - [film]() 
+
+- generation-stage
+  - [animal]() 
+  - [company]() 
+  - [film]() 
