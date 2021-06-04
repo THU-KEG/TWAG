@@ -192,11 +192,11 @@ By using end2end generation, the abstract of the src file in DATA_DIR will be ge
 Some of our checkpoints are available:
 
 - classify-stage
-  - [animal]() 
-  - [company]() 
-  - [film]() 
+  - [animal](https://drive.google.com/file/d/1ZK191ef6TAw0AI8LY4KM_VXm0nSNdDEW/view?usp=sharing) 
+  - [company](https://drive.google.com/file/d/1mDfryXr_K2xF76numrM2QrtCDV8PE2q2/view?usp=sharing) 
+  - [film](https://drive.google.com/file/d/1wdRgsyMHs2qrfJxjrQw3SaGtf3I_ogAh/view?usp=sharing) 
 
 - generation-stage
-  - [animal]() 
-  - [company]() 
-  - [film]() 
+  - [animal](https://drive.google.com/file/d/19P64Q2pM1CQtYTnMbftDn1wqsUjCz0gc/view?usp=sharing) 
+  - [company](https://drive.google.com/file/d/1je736T1RksXRj-RQ-gyCq2-CNRFaINI7/view?usp=sharing) 
+  - [film](https://drive.google.com/file/d/12dZ7rBKN5XnncwKoR0XF2FGQ364JziAT/view?usp=sharing) 
