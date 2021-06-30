@@ -1,8 +1,23 @@
-**This code is for the ACL 2021 paper `TWAG: A Topic-guided Wikipedia Abstract Generator`**
+**This code is for the ACL 2021 paper `TWAG: A Topic-guided Wikipedia Abstract Generator`** [[pdf](https://arxiv.org/pdf/2106.15135.pdf)]
 
 **Python version**: Python3.6
 
 **Package Requirements**: pytorch  transformers spacy  tensorboardX  
+
+# Citation
+
+If you find our code or dataset useful, please cite:
+
+```
+@misc{zhu2021twag,
+      title={TWAG: A Topic-Guided Wikipedia Abstract Generator}, 
+      author={Fangwei Zhu and Shangqing Tu and Jiaxin Shi and Juanzi Li and Lei Hou and Tong Cui},
+      year={2021},
+      eprint={2106.15135},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 # Get Start
 
