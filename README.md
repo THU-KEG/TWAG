@@ -1,4 +1,4 @@
-**This code is for the ACL 2021 paper `TWAG: A Topic-guided Wikipedia Abstract Generator`** [[pdf](https://arxiv.org/pdf/2106.15135.pdf)]
+**This code is for the ACL 2021 paper `TWAG: A Topic-guided Wikipedia Abstract Generator`** [[pdf](https://arxiv.org/pdf/2106.15135.pdf)] [[page](https://aclanthology.org/2021.acl-long.356/)]
 
 **Python version**: Python3.6
 
@@ -9,13 +9,20 @@
 If you find our code or dataset useful, please cite:
 
 ```
-@misc{zhu2021twag,
-      title={TWAG: A Topic-Guided Wikipedia Abstract Generator}, 
-      author={Fangwei Zhu and Shangqing Tu and Jiaxin Shi and Juanzi Li and Lei Hou and Tong Cui},
-      year={2021},
-      eprint={2106.15135},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{zhu-etal-2021-twag,
+    title = "{TWAG}: A Topic-Guided {W}ikipedia Abstract Generator",
+    author = "Zhu, Fangwei  and
+      Tu, Shangqing  and
+      Shi, Jiaxin  and
+      Li, Juanzi  and
+      Hou, Lei  and
+      Cui, Tong",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    pages = "4623--4635",
 }
 ```
 
